@@ -1,4 +1,4 @@
-export default function() {
+export default function Head() {
     return (
         <>
             <title>George Chang</title>
