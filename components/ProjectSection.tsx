@@ -5,21 +5,21 @@ const projects = [
   {
     name: "Tin-dog",
     description: "A simple project that showcase the landing page of Tin-Dog app.",
-    image: "/tindogimg.png",
+    image: "/1.png",
     github: "https://github.com/xsova113/TinDog-Start",
     link: "https://tindog-lo1x.onrender.com/"
   },
   {
     name: "Simon-Game",
     description: "Simple Simon-Game app using Javascript.",
-    image: "/simon-game.png",
+    image: "/2.png",
     github: "https://github.com/xsova113/simon-game",
     link: "https://simon-game-xsova113.vercel.app/"
   },
   {
     name: "Workout-Buddy",
     description: "Simple Workout-Buddy app for tracking workouts built with react.",
-    image: "/workoutbuddy.png",
+    image: "/3.png",
     github: "https://github.com/xsova113/WorkoutBuddy",
     link: "https://workout-buddy-rosy.vercel.app/login"
   }
