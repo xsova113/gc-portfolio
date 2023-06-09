@@ -17,7 +17,7 @@ const Shiba = ({ isMobile }: { isMobile: boolean }) => {
         castShadow
         shadow-mapSize={1024}
       />
-      <primitive object={shiba.scene} scale={isMobile ? 0.7 : 3.5} />
+      <primitive object={shiba.scene} scale={isMobile ? 2 : 3} />
     </mesh>
   );
 };

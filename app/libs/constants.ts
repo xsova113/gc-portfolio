@@ -110,6 +110,10 @@ export const NAV_ITEMS: { label: string; page: string }[] = [
     label: "Projects",
     page: "projects",
   },
+  {
+    label: "Contact",
+    page: "contact",
+  },
 ];
 
 export const skills = [

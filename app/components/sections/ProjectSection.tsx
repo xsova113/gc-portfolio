@@ -1,6 +1,6 @@
 import React from "react";
-import Project from "./Project";
 import { projects } from "@/app/libs/constants";
+import Project from "./components/Project";
 
 export default function ProjectSection() {
   return (

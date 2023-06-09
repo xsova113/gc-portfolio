@@ -16,7 +16,7 @@ export default function Project({ project }: any) {
       viewport={{ once: false, amount: 0.1 }}
     >
       <div className="flex flex-col md:flex-row md:space-x-12 justify-between">
-        <div className="mt-8 h-[220px] sm:h-[350px] md:h-auto w-full md:w-1/2 relative shadow-2xl rounded-xl">
+        <div className="mt-8 h-[220px] sm:h-[350px] md:h-auto lg:h-[270px] xl:h-[340px] w-full md:w-1/2 relative shadow-2xl rounded-xl transition">
           <Link href={project.link} target="_new">
             <Image
               src={project.image}
