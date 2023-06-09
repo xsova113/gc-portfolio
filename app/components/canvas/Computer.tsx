@@ -18,7 +18,7 @@ const Computer = ({ isMobile }: { isMobile: boolean }) => {
         castShadow
         shadow-mapSize={1024}
       />
-      <primitive object={computer.scene} scale={isMobile ? 0.03 : 0.03} />
+      <primitive object={computer.scene} scale={isMobile ? 0.02 : 0.03} />
     </mesh>
   );
 };

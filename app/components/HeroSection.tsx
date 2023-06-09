@@ -37,7 +37,7 @@ export default function HeroSection() {
           initial="hidden"
           whileInView={"show"}
           className={`md:mt-2 flex flex-1`}
-          viewport={{ once: true }}
+          viewport={{ once: true}}
         >
           <Image
             className="rounded-full shadow-2xl"

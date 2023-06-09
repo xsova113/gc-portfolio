@@ -12,7 +12,7 @@ export default function AboutSection() {
         </h1>
 
         <div
-          className={`flex flex-col justify-center transition text-white/80 bg-gradient-to-br from-red-500 to-orange-500 py-24 w-screen -ml-4 px-10  md:-ml-40 md:px-52`}
+          className={`flex flex-col justify-center transition text-white/80 bg-gradient-to-br from-red-500 to-orange-500 py-24 -mx-40 px-40 md:px-40`}
         >
           
           <h1 className="mx-auto text-white text-2xl font-bold mb-6 md:text-left">
@@ -68,7 +68,7 @@ export default function AboutSection() {
             </div>
           </div>
 
-          <div className="w-1/2 h-[380px] mt-10 gap-4 flex flex-col items-center justify-center rounded-3xl">
+          <div className="w-full md:w-1/2 h-[380px] mt-10 gap-4 flex flex-col items-center justify-center rounded-3xl">
             <ComputerCanvas />
           </div>
         </div>
