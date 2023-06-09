@@ -1,6 +1,6 @@
 "use client";
 import { skills } from "@/app/libs/constants";
-// import ComputerCanvas from "./canvas/Computer";
+import ComputerCanvas from "./canvas/Computer";
 
 export default function AboutSection() {
   return (
@@ -68,9 +68,9 @@ export default function AboutSection() {
             </div>
           </div>
 
-          {/* <div className="w-1/2 h-[380px] mt-10 gap-4 flex flex-col items-center justify-center rounded-3xl">
+          <div className="w-1/2 h-[380px] mt-10 gap-4 flex flex-col items-center justify-center rounded-3xl">
             <ComputerCanvas />
-          </div> */}
+          </div>
         </div>
       </div>
       <div className="pb-32 flex justify-center gap-6">
