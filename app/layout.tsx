@@ -15,11 +15,11 @@ export default function RootLayout({
     <html lang="en">
       <Head />
       <body className="dark:bg-stone-800 bg-[#F5EFE7] transition duration-300 overflow-x-hidden">
-        {/* <ThemeProvider attribute="class" enableSystem={true}> */}
+        <ThemeProvider attribute="class" enableSystem={true}>
           <NavBar />
           {children}
           <Footer />
-        {/* </ThemeProvider> */}
+        </ThemeProvider>
       </body>
     </html>
   );
