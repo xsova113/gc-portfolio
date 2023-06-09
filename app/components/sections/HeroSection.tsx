@@ -24,7 +24,7 @@ export default function HeroSection() {
 
   return (
     <section className="max-md:mt-20" id="home">
-      <div className="flex flex-col max-md:gap-10 text-center items-center justify-between py-16 sm:py-32 md:flex-row md:text-left md:pb-32 md:mt-[150px]">
+      <div className="flex flex-col-reverse md:flex-row max-md:gap-20 text-center items-center justify-between py-16 sm:py-32  md:text-left md:pb-32 md:mt-[150px]">
         <motion.div
           variants={slideIn("left", "spring", 0.3, 0.8)}
           initial="hidden"
@@ -33,7 +33,7 @@ export default function HeroSection() {
           viewport={{ once: true }}
         >
           <Image
-            className="rounded-full shadow-2xl"
+            className="rounded-full shadow-2xl max-md:w-[350px]"
             src="/geo.jpeg"
             alt="headshot-img"
             width={400}
@@ -63,7 +63,7 @@ export default function HeroSection() {
           </p>
           <Link
             to="projects"
-            className="text-neutral-100 w-[120px] font-semibold text-center transition py-3 bg-teal-600 rounded shadow hover:bg-teal-700 cursor-pointer"
+            className="text-neutral-100 w-[120px] font-semibold text-center transition py-3 bg-orange-500 rounded shadow hover:bg-orange-700 cursor-pointer"
             activeClass="active"
             spy={true}
             smooth={true}
