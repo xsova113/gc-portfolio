@@ -2,7 +2,7 @@
 import { skills } from "@/app/libs/constants";
 import ComputerCanvas from "./canvas/Computer";
 import { motion } from "framer-motion";
-import { zoomIn } from "@/app/utils/motions";
+// import { zoomIn } from "@/app/utils/motions";
 
 export default function AboutSection() {
   return (
@@ -14,7 +14,7 @@ export default function AboutSection() {
         </h1>
 
         <motion.div
-          variants={zoomIn(0, 0.5)}
+          // variants={zoomIn(0, 0.5)}
           initial="hidden"
           whileInView={"show"}
           className={`wflex flex-col justify-center transition text-white dark:text-stone-800 bg-gradient-to-br from-stone-800 to-slate-500 dark:from-[#F5EFE7] dark:to-slate-300 dark:bg-gradient-to-br py-24 -mx-52 px-52`}

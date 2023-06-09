@@ -15,7 +15,7 @@ export default function NavBar() {
   const [navbar, setNavbar] = useState(false);
 
   return (
-    <header className="w-full mx-auto px-4 sm:px-20 fixed top-0 z-50 shadow bg-[#F5EFE7] transition duration-300 dark:bg-stone-800 dark:border-b dark:border-stone-700">
+    <header className="w-full px-4 sm:px-20 fixed top-0 z-50 shadow bg-[#F5EFE7] transition duration-300 dark:bg-stone-800 dark:border-b dark:border-stone-700">
       <div className={`justify-between md:items-center md:flex`}>
         <div>
           <div className="flex justify-between py-3">
