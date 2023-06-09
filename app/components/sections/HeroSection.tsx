@@ -45,7 +45,7 @@ export default function HeroSection() {
           variants={slideIn("right", "spring", 0.3, 0.8)}
           initial="hidden"
           whileInView={"show"}
-          className={`md:mt-2 md:w-3/5 flex flex-col max-md:items-center flex-1`}
+          className={`md:mt-2 md:w-3/5 flex flex-col gap-4 max-md:items-center flex-1`}
           viewport={{ once: true }}
         >
           <h1 className="font-bold text-4xl mt-6 md:text-7xl md:mt-0">
@@ -53,7 +53,7 @@ export default function HeroSection() {
             <br />
             <span className="text-orange-500">{textArray[index]}</span>!
           </h1>
-          <p className="text-lg mt-4 mb-6 md:text-2xl">
+          <p className="text-lg text-stone-600/80 dark:text-stone-300 mt-4 mb-6 md:text-2xl">
             I&apos;m a&nbsp;
             <span className="font-semibold text-teal-600">
               Web Developer&nbsp;
