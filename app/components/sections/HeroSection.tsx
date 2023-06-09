@@ -33,7 +33,7 @@ export default function HeroSection() {
           viewport={{ once: true }}
         >
           <Image
-            className="rounded-full shadow-2xl max-md:w-[350px]"
+            className="rounded-full shadow-2xl max-md:w-[270px]"
             src="/geo.jpeg"
             alt="headshot-img"
             width={400}
