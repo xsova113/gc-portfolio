@@ -5,7 +5,7 @@ import ProjectSection from '@/app/components/ProjectSection'
 
 export default function Home() {
   return (
-    <main className='overflow-x-hidden px-4 sm:px-20'>
+    <main className='px-4 sm:px-20 overflow-x-clip'>
       <HeroSection />
       <AboutSection />
       <ProjectSection />
