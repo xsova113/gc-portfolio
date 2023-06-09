@@ -68,7 +68,7 @@ export default function AboutSection() {
             </div>
           </div>
 
-          <div className="w-full md:w-1/2 h-[380px] mt-10 gap-4 flex flex-col items-center justify-center rounded-3xl">
+          <div className="max-md:hidden w-full md:w-1/2 h-[380px] mt-10 gap-4 flex flex-col items-center justify-center rounded-3xl">
             <ComputerCanvas />
           </div>
         </div>
