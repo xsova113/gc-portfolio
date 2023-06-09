@@ -25,13 +25,13 @@ export default function HeroSection() {
 
   return (
     <section className="max-md:mt-20" id="home">
-      <div
+      {/* <div
         className={` animate-bounce transition relative flex -top-[30px] md:-top-[60px] right-8 w-full h-[350px] md:h-[800px] items-center`}
       >
         <Shiba />
-      </div>
+      </div> */}
 
-      <div className="flex flex-col max-md:gap-10 text-center items-center justify-between py-16 sm:py-32 md:flex-row md:space-x-4 md:text-left md:pb-32 md:-mt-[350px]">
+      <div className="flex flex-col max-md:gap-10 text-center items-center justify-between py-16 sm:py-32 md:flex-row md:space-x-4 md:text-left md:pb-32 md:mt-[150px]">
         <motion.div
           variants={slideIn("left", "spring", 0.3, 0.8)}
           initial="hidden"
