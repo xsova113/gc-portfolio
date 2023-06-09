@@ -6,8 +6,23 @@ import { HiArrowDown } from "react-icons/hi";
 import Shiba from "./canvas/Shiba";
 import { motion } from "framer-motion";
 import { slideIn } from "@/app/utils/motions";
+import { useEffect, useState } from "react";
+
+const textArray = ["Developer", "Coder", "Programmer"];
 
 export default function HeroSection() {
+  const [index, setIndex] = useState<number>(0);
+
+  useEffect(() => {
+    setTimeout(() => {
+      if (index === 2) {
+        setIndex(0);
+      } else {
+        setIndex((prev) => ++prev);
+      }
+    }, 2000);
+  }, [index]);
+
   return (
     <section className="max-md:mt-20" id="home">
       <div
@@ -22,6 +37,7 @@ export default function HeroSection() {
           initial="hidden"
           whileInView={"show"}
           className={`md:mt-2 flex flex-1`}
+          viewport={{ once: true }}
         >
           <Image
             className="rounded-full shadow-2xl"
@@ -37,12 +53,15 @@ export default function HeroSection() {
           initial="hidden"
           whileInView={"show"}
           className={`md:mt-2 md:w-3/5 flex flex-col max-md:items-center flex-1`}
+          viewport={{ once: true }}
         >
           <h1 className="font-bold text-4xl mt-6 md:text-7xl md:mt-0">
-            Hi, I&apos;m George!
+            Hi, I&apos;m a
+            <br />
+            <span className="text-orange-500">{textArray[index]}</span>!
           </h1>
           <p className="text-lg mt-4 mb-6 md:text-2xl">
-            I&apos;m a &nbsp;
+            I&apos;m a&nbsp;
             <span className="font-semibold text-teal-600">
               Web Developer &nbsp;
             </span>

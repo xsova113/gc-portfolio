@@ -1,8 +1,6 @@
 "use client";
 import { skills } from "@/app/libs/constants";
-import ComputerCanvas from "./canvas/Computer";
-import { motion } from "framer-motion";
-// import { zoomIn } from "@/app/utils/motions";
+// import ComputerCanvas from "./canvas/Computer";
 
 export default function AboutSection() {
   return (
@@ -13,13 +11,11 @@ export default function AboutSection() {
           <hr className="w-6 h-1 mx-auto my-4 bg-teal-500 border-0 " />
         </h1>
 
-        <motion.div
-          // variants={zoomIn(0, 0.5)}
-          initial="hidden"
-          whileInView={"show"}
-          className={`wflex flex-col justify-center transition text-white dark:text-stone-800 bg-gradient-to-br from-stone-800 to-slate-500 dark:from-[#F5EFE7] dark:to-slate-300 dark:bg-gradient-to-br py-24 -mx-52 px-52`}
+        <div
+          className={`flex flex-col justify-center transition text-white/80 bg-gradient-to-br from-red-500 to-orange-500 py-24 w-screen -ml-4 px-10  md:-ml-40 md:px-52`}
         >
-          <h1 className="mx-auto text-2xl font-bold mb-6 md:text-left">
+          
+          <h1 className="mx-auto text-white text-2xl font-bold mb-6 md:text-left">
             Get to Know Me!
           </h1>
           <p>
@@ -53,26 +49,28 @@ export default function AboutSection() {
             </span>
             to deliver a solution that exceeds your expectations.
           </p>
-        </motion.div>
+        </div>
 
-        <div className="flex flex-col items-center pt-20">
-          <h1 className="text-center text-2xl font-bold mb-6 md:text-left">
-            My Skills
-          </h1>
-          <div className="flex flex-wrap justify-center">
-            {skills.map((skill, id) => (
-              <p
-                key={id}
-                className="bg-gray-200 px-4 py-2 mr-2 mt-2 text-gray-500 rounded font-semibold cursor-default"
-              >
-                {skill.skill}
-              </p>
-            ))}
+        <div className="flex flex-col md:flex-row items-center pt-20">
+          <div className="flex flex-col h-1/2 md:w-1/2">
+            <h1 className="text-center text-2xl font-bold mb-6 md:text-left">
+              My Skills
+            </h1>
+            <div className="grid grid-cols-3 justify-center">
+              {skills.map((item, index) => (
+                <p
+                  key={index}
+                  className="bg-gradient-to-r from-stone-300 to-orange-500 flex justify-center px-4 py-2 mr-2 mt-2 text-gray-600 hover:text-neutral-100 transition hover:scale-110 rounded font-semibold cursor-default"
+                >
+                  {item.skill}
+                </p>
+              ))}
+            </div>
           </div>
 
-          <div className="w-full h-[380px] mt-10 gap-4 flex flex-col items-center justify-center rounded-3xl">
+          {/* <div className="w-1/2 h-[380px] mt-10 gap-4 flex flex-col items-center justify-center rounded-3xl">
             <ComputerCanvas />
-          </div>
+          </div> */}
         </div>
       </div>
       <div className="pb-32 flex justify-center gap-6">

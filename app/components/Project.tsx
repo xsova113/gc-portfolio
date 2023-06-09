@@ -16,13 +16,12 @@ export default function Project({ project }: any) {
       viewport={{ once: false, amount: 0.1 }}
     >
       <div className="flex flex-col md:flex-row md:space-x-12 justify-between">
-        <div className="mt-8 md:w-1/2 overflow-hidden shadow-2xl rounded-xl">
+        <div className="mt-8 md:w-1/2 overflow-hidden relative shadow-2xl rounded-xl">
           <Link href={project.link} target="_new">
             <Image
               src={project.image}
               alt="project-img"
-              width={1000}
-              height={1000}
+              fill
               className="rounded-xl transition duration-300 hover:scale-110 hover:opacity-70"
             />
           </Link>

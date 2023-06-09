@@ -1,6 +1,6 @@
 import React, { Suspense, useEffect, useState } from "react";
 import { Canvas } from "@react-three/fiber";
-import { useGLTF, Preload, OrbitControls } from "@react-three/drei";
+import { useGLTF, Preload, OrbitControls, PerspectiveCamera } from "@react-three/drei";
 
 const Shiba = ({ isMobile }: { isMobile: boolean }) => {
   const shiba = useGLTF("./shiba/scene.gltf");
@@ -17,7 +17,7 @@ const Shiba = ({ isMobile }: { isMobile: boolean }) => {
         castShadow
         shadow-mapSize={1024}
       />
-      <primitive object={shiba.scene} scale={isMobile ? 0.7 : 3} />
+      <primitive object={shiba.scene} scale={isMobile ? 0.7 : 2.5} />
     </mesh>
   );
 };

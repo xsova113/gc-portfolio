@@ -1,9 +1,9 @@
 "use client";
 
-import NavBar from "@/components/NavBar";
-import "./globals.css"
+import NavBar from "@/app/components/NavBar";
+import "./globals.css";
 import { ThemeProvider } from "next-themes";
-import Footer from "@/components/Footer";
+import Footer from "@/app/components/Footer";
 import Head from "./Head";
 
 export default function RootLayout({
@@ -14,7 +14,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <Head />
-      <body className="dark:bg-stone-800 bg-[#F5EFE7] transition duration-300 overflow-x-hidden">
+      <body className="dark:bg-stone-800 bg-[#F5EFE7] transition duration-300 max-md:overflow-x-hidden">
         <ThemeProvider attribute="class" enableSystem={true}>
           <NavBar />
           {children}
