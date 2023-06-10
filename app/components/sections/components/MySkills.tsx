@@ -31,6 +31,7 @@ const MySkills = () => {
                   alt={item.skill}
                   width={item.size || 45}
                   height={item.size || 45}
+                  loading="lazy"
                 />
               </div>
               <p className="text-stone-600 pt-1 dark:text-stone-200 transition font-semibold cursor-default text-sm">
