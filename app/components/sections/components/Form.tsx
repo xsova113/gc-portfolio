@@ -97,7 +97,7 @@ const Form = () => {
 
       <button
         type="submit"
-        className="mt-6 mx-auto text-stone-100 bg-orange-500 px-8 py-4 rounded-lg"
+        className="mt-6 mx-auto text-stone-100 bg-orange-500 px-8 py-4 rounded-lg hover:bg-orange-500/80 transition"
       >
         Send Message
       </button>
