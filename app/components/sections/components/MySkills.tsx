@@ -33,7 +33,7 @@ const MySkills = () => {
                   height={item.size || 45}
                 />
               </div>
-              <p className="text-stone-600 dark:text-stone-200 transition font-semibold cursor-default text-sm">
+              <p className="text-stone-600 pt-1 dark:text-stone-200 transition font-semibold cursor-default text-sm">
                 {item.skill}
               </p>
             </div>
