@@ -92,6 +92,14 @@ export const projects = [
         name: "openAIAPI",
         color: "text-purple-500",
       },
+      {
+        name: "express",
+        color: "text-amber-500",
+      },
+      {
+        name: "mongodb",
+        color: "text-cyan-500",
+      },
     ],
     link: "https://dall-e-wheat-seven.vercel.app/",
   },
