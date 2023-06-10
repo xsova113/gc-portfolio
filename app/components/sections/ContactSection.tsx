@@ -1,4 +1,4 @@
-import Form from "./components/Form";
+// import Form from "./components/Form";
 
 const ContactSection = () => {
   return (
@@ -18,7 +18,7 @@ const ContactSection = () => {
           </div>
         </div>
       </div>
-      <Form />
+      {/* <Form /> */}
     </section>
   );
 };
