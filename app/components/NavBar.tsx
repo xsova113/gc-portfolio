@@ -77,7 +77,7 @@ export default function NavBar() {
                   onClick={() => setTheme("dark")}
                   className="bg-slate-200 p-2 rounded-xl transition"
                 >
-                  <RiMoonFill size={25} />
+                  <RiMoonFill size={25} color="black" />
                 </button>
               )}
             </div>
