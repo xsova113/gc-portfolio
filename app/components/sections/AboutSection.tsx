@@ -89,12 +89,6 @@ export default function AboutSection() {
           </motion.div>
         </div>
       </div>
-      <div className="pb-32 flex justify-center gap-6">
-        <div className="w-[.625rem] h-[.625rem] rounded-full bg-teal-500" />
-        <div className="w-[.625rem] h-[.625rem] rounded-full bg-teal-500" />
-        <div className="w-[.625rem] h-[.625rem] rounded-full bg-teal-500" />
-        <div className="w-[.625rem] h-[.625rem] rounded-full bg-teal-500" />
-      </div>
     </section>
   );
 }
