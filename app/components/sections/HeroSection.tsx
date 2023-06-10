@@ -24,7 +24,7 @@ export default function HeroSection() {
 
   return (
     <section className="max-md:mt-20" id="home">
-      <div className="flex flex-col-reverse md:flex-row max-md:gap-20 text-center items-center justify-between py-16 sm:py-32  md:text-left md:pb-32 md:mt-[150px]">
+      <div className="flex flex-col-reverse md:flex-row max-md:gap-20 text-center items-center justify-between py-16 sm:py-32  md:text-left pb-40 md:pb-40 md:mt-[150px]">
         <motion.div
           variants={slideIn("left", "spring", 0.3, 0.8)}
           initial="hidden"

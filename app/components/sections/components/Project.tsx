@@ -13,7 +13,7 @@ export default function Project({ project }: any) {
       variants={cardVariants}
       initial="offscreen"
       whileInView="onscreen"
-      viewport={{ once: false, amount: 0.1 }}
+      viewport={{ once: true, amount: 0.4 }}
     >
       <div className="flex flex-col md:flex-row md:space-x-12 justify-between">
         <div className="mt-8 h-[220px] sm:h-[350px] md:h-auto lg:h-[270px] xl:h-[340px] w-full md:w-1/2 relative shadow-2xl rounded-xl transition">

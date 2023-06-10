@@ -17,7 +17,7 @@ const ContactSection = () => {
               georgechangh@gmail.com
             </span>
           </div>
-          <div className="flex max-md:pl-4 md:justify-center w-[300px] py-8 rounded-lg bg-stone-100 dark:bg-stone-600 dark:text-stone-100">
+          <div className="flex md:justify-center w-[300px] py-8 rounded-lg bg-stone-100 dark:bg-stone-600 dark:text-stone-100">
             <span className="flex items-center gap-3">
               <IoLogoWhatsapp size={50} color="green" />
               +1(778)855-3815

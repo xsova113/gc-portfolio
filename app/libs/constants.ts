@@ -125,17 +125,77 @@ export const NAV_ITEMS: { label: string; page: string }[] = [
 ];
 
 export const skills = [
-  { skill: "HTML" },
-  { skill: "CSS" },
-  { skill: "JavaScript" },
-  { skill: "TypeScript" },
-  { skill: "React" },
-  { skill: "Next.js" },
-  { skill: "Prisma" },
-  { skill: "Railway" },
-  { skill: "PostgreSQL" },
-  { skill: "Express" },
-  { skill: "MongoDB" },
-  { skill: "Tailwind CSS" },
-  { skill: "Git" },
+  {
+    skill: "HTML",
+    img: "/skills/html.png",
+    color: "bg-red-200/90",
+  },
+  {
+    skill: "CSS",
+    img: "/skills/css.png",
+    color: "bg-green-200/90",
+  },
+  {
+    skill: "JavaScript",
+    img: "/skills/javascript.png",
+    color: "bg-zinc-200/90",
+  },
+  {
+    skill: "TypeScript",
+    img: "/skills/typescript.png",
+    color: "bg-pink-200/90",
+    size: 30
+  },
+  {
+    skill: "React",
+    img: "/skills/react.png",
+    color: "bg-teal-200/90",
+  },
+  {
+    skill: "Next.js",
+    img: "/skills/next.svg",
+    color: "bg-amber-200/90",
+  },
+  {
+    skill: "Prisma",
+    img: "/skills/prisma.png",
+    color: "bg-violet-200/90",
+  },
+  {
+    skill: "Railway",
+    img: "/skills/railway.svg",
+    color: "bg-blue-200/90",
+  },
+  {
+    skill: "PostgreSQL",
+    img: "/skills/postgresql.svg",
+    color: "bg-red-200/90",
+  },
+  {
+    skill: "Express",
+    img: "/skills/express.png",
+    color: "bg-white/90",
+    size: 65
+  },
+  {
+    skill: "MongoDB",
+    img: "/skills/mongodb.svg",
+    color: "bg-orange-200/90",
+    size: 70
+  },
+  {
+    skill: "Tailwind CSS",
+    img: "/skills/tailwind.svg",
+    color: "bg-purple-200/90",
+  },
+  {
+    skill: "Git",
+    img: "/skills/git.png",
+    color: "bg-blue-200/90",
+  },
+  {
+    skill: "Node JS",
+    img: "/skills/node.png",
+    color: "bg-zinc-200/90",
+  },
 ];

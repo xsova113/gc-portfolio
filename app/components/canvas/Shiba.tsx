@@ -1,6 +1,8 @@
+"use client";
+
 import React, { Suspense, useEffect, useState } from "react";
 import { Canvas } from "@react-three/fiber";
-import { useGLTF, Preload, OrbitControls, PerspectiveCamera } from "@react-three/drei";
+import { useGLTF, Preload, OrbitControls } from "@react-three/drei";
 
 const Shiba = ({ isMobile }: { isMobile: boolean }) => {
   const shiba = useGLTF("./shiba/scene.gltf");
