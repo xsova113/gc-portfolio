@@ -1,9 +1,9 @@
 "use client";
 
-import NavBar from "@/app/components/NavBar";
+import NavBar from "@/components/NavBar";
 import "./globals.css";
 import { ThemeProvider } from "next-themes";
-import Footer from "@/app/components/Footer";
+import Footer from "@/components/Footer";
 import Head from "./Head";
 
 export default function RootLayout({

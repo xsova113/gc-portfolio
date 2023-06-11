@@ -38,7 +38,7 @@ export default function HeroSection() {
             alt="headshot-img"
             width={400}
             height={400}
-            loading="lazy"
+            priority
           />
         </motion.div>
 
@@ -49,7 +49,7 @@ export default function HeroSection() {
           className={`md:mt-2 md:w-3/5 flex flex-col gap-4 max-md:items-center flex-1`}
           viewport={{ once: true }}
         >
-          <h1 className="font-bold text-4xl mt-6 md:text-7xl md:mt-0">
+          <h1 className="font-bold text-5xl mt-6 md:text-7xl md:mt-0">
             Hi, I&apos;m a
             <br />
             <span className="text-orange-500">{textArray[index]}</span>!
