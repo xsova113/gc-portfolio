@@ -149,7 +149,7 @@ export const skills = [
   {
     skill: "React",
     img: "/skills/react.png",
-    color: "bg-teal-200/90",
+    color: "bg-[#3A98B9]/10",
   },
   {
     skill: "Next.js",

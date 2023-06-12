@@ -7,7 +7,7 @@ const AboutMe = () => {
     <div className="flex flex-col">
       <h1 className="text-center font-bold text-4xl mb-10">
         About Me
-        <hr className="w-6 h-1 mx-auto my-4 bg-teal-500 border-0 " />
+        <hr className="w-6 h-1 mx-auto my-4 bg-[#3A98B9] border-0 " />
       </h1>
 
       <motion.div
@@ -22,7 +22,7 @@ const AboutMe = () => {
           </h1>
           <p>
             Hi, my name is&nbsp;
-            <span className="text-teal-500 font-bold">George</span> and I am
+            <span className="text-[#3A98B9] font-bold">George</span> and I am
             a&nbsp;
             <span className="font-bold">highly ambitious</span>
             <span className="font-bold">&nbsp;self-motivated</span>, and
@@ -41,12 +41,12 @@ const AboutMe = () => {
           <p>
             In this portfolio, you will find a selection of my most recent and
             notable projects, showcasing my&nbsp;
-            <span className="font-bold text-teal-500">expertise</span> in
+            <span className="font-bold text-[#3A98B9]">expertise</span> in
             various programming languages, frameworks, and tools. Whether
             you&apos;re a small business owner looking to establish an online
             presence or a large corporation seeking to revamp your website, I am
             confident that I have the
-            <span className="font-bold text-teal-500">
+            <span className="font-bold text-[#3A98B9]">
               &nbsp;skills and creativity&nbsp;
             </span>
             to deliver a solution that exceeds your expectations.

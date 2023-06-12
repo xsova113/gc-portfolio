@@ -20,7 +20,7 @@ const Form = () => {
   return (
     <form
       onSubmit={handleSubmit(onSubmit)}
-      className=" flex flex-col justify-center gap-10 pt-16 w-full md:w-[65%]"
+      className="flex flex-col justify-center gap-10 pt-16 w-full md:w-[65%]"
     >
       <Toaster />
       <div className="flex items-center bg-stone-100 dark:bg-stone-600  rounded-lg justify-between">

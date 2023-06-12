@@ -56,7 +56,7 @@ export default function HeroSection() {
           </h1>
           <p className="text-lg text-stone-600/80 dark:text-stone-300 mt-4 mb-6 md:text-2xl">
             I&apos;m a&nbsp;
-            <span className="font-semibold text-teal-600">
+            <span className="font-semibold text-[#3A98B9]">
               Web Developer&nbsp;
             </span>
             based in Richmond, BC with a passion for creating beautiful and

@@ -1,7 +1,6 @@
 import { skills } from "@/app/libs/constants";
 import { slideIn } from "@/app/utils/motions";
 import { motion } from "framer-motion";
-import ShibaCanvas from "../../canvas/Shiba";
 import Image from "next/image";
 
 const MySkills = () => {
@@ -11,7 +10,7 @@ const MySkills = () => {
         variants={slideIn("left", "spring", 0.2, 0.8)}
         initial="hidden"
         whileInView={"show"}
-        className="flex flex-col h-1/2 md:w-1/2"
+        className="flex flex-col"
       >
         <h1 className="text-center text-2xl font-bold mb-6 max-md:pt-14">
           My Skills
@@ -34,21 +33,12 @@ const MySkills = () => {
                   loading="lazy"
                 />
               </div>
-              <p className="text-stone-600 pt-1 dark:text-stone-200 transition font-semibold cursor-default text-sm">
+              <p className=" text-stone-600 pt-1 dark:text-stone-200 transition font-semibold cursor-default text-sm">
                 {item.skill}
               </p>
             </div>
           ))}
         </div>
-      </motion.div>
-
-      <motion.div
-        variants={slideIn("right", "spring", 0.2, 1)}
-        initial="hidden"
-        whileInView={"show"}
-        className="w-full md:w-1/2 h-[350px] md:h-[540px] mt-10 gap-4 flex flex-col items-center justify-center rounded-3xl"
-      >
-        <ShibaCanvas />
       </motion.div>
     </div>
   );

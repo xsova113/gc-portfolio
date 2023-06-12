@@ -3,10 +3,10 @@ import { IoMailOpen, IoLogoWhatsapp } from "react-icons/io5";
 
 const ContactSection = () => {
   return (
-    <section id="contact" className="flex flex-col pt-32 items-center ">
+    <section id="contact" className="flex flex-col pt-20 md:pt-32 mb-20 items-center ">
       <h1 className="text-center font-bold text-4xl">
         Contact Me
-        <hr className="w-6 h-1 mx-auto my-4 bg-teal-500 border-0" />
+        <hr className="w-6 h-1 mx-auto my-4 bg-[#3A98B9] border-0" />
       </h1>
 
       <div className="flex flex-col gap-4 md:gap-10 text-stone-500 pt-10 md:pt-16">
