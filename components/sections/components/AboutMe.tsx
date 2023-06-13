@@ -14,7 +14,7 @@ const AboutMe = () => {
         variants={container("left", "tween")}
         initial="hidden"
         whileInView={"show"}
-        className={`flex flex-col justify-center transition text-white/80 bg-gradient-to-br from-red-500 to-orange-500 py-24 px-40 -mx-40 md:px-40`}
+        className={`flex flex-col justify-center transition text-white/80 bg-gradient-to-br from-red-500 to-orange-500 py-32 px-40 -mx-40 md:px-40`}
       >
         <motion.div variants={items} className="flex flex-col">
           <h1 className="mx-auto text-white text-2xl font-bold mb-6 md:text-left">
