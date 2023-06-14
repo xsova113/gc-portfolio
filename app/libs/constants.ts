@@ -50,7 +50,7 @@ export const projects = [
   {
     name: "Ecommerce Product Page",
     description:
-      "Fully mobile responsive single web page for ecommerce product page with add-to-cart feature.",
+      "Fully mobile responsive single web page for ecommerce product page with add-to-cart and user sign-in feature.",
     image: "/ecom-product-page.png",
     github: "https://github.com/xsova113/ecommerce-product-page",
     tags: [
