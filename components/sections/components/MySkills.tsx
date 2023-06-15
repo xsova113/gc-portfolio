@@ -1,4 +1,4 @@
-import { skills } from "@/app/libs/constants";
+import { skills } from "@/libs/constants";
 import { slideIn } from "@/app/utils/motions";
 import { motion } from "framer-motion";
 import Image from "next/image";

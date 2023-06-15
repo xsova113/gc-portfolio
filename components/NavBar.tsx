@@ -5,7 +5,7 @@ import { RiMoonFill, RiSunLine } from "react-icons/ri";
 import { IoMdMenu, IoMdClose } from "react-icons/io";
 import { useState } from "react";
 import { useTheme } from "next-themes";
-import { NAV_ITEMS } from "@/app/libs/constants";
+import { NAV_ITEMS } from "@/libs/constants";
 import { motion } from "framer-motion";
 import { slideIn } from "@/app/utils/motions";
 
