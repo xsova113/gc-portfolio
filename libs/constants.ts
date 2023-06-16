@@ -129,6 +129,32 @@ export const projects = [
     ],
     link: "https://loopstudios-landing-page-nine-wine.vercel.app/",
   },
+  {
+    name: "Insure Landing Page",
+    description:
+      "A basic and fully mobile responsive landing page.",
+    image: "/insure-landingpage.png",
+    github: "https://github.com/xsova113/insure-landing-page",
+    tags: [
+      {
+        name: "react",
+        color: "skyblue",
+      },
+      {
+        name: "next",
+        color: "orange",
+      },
+      {
+        name: "headless-ui",
+        color: "blue",
+      },
+      {
+        name: "tailwind",
+        color: "violet",
+      },
+    ],
+    link: "https://insure-landing-page-xsova113.vercel.app/",
+  },
 ];
 
 export const NAV_ITEMS: { label: string; page: string }[] = [
