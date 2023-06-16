@@ -132,7 +132,7 @@ export const projects = [
   {
     name: "Insure Landing Page",
     description:
-      "A basic and fully mobile responsive landing page.",
+      "A fully mobile responsive landing page.",
     image: "/insure-landingpage.png",
     github: "https://github.com/xsova113/insure-landing-page",
     tags: [
