@@ -8,19 +8,19 @@ export const projects = [
     tags: [
       {
         name: "react",
-        color: "text-blue-500",
+        color: "skyblue",
       },
       {
         name: "tailwind",
-        color: "text-pink-500",
+        color: "blue",
       },
       {
         name: "framer-motion",
-        color: "text-green-500",
+        color: "violet",
       },
       {
         name: "next",
-        color: "text-orange-500",
+        color: "orange",
       },
     ],
     link: "https://space-tourism-xsova113.vercel.app/",
@@ -34,15 +34,15 @@ export const projects = [
     tags: [
       {
         name: "react",
-        color: "text-blue-500",
+        color: "skyblue",
       },
       {
         name: "framer-motion",
-        color: "text-green-500",
+        color: "violet",
       },
       {
         name: "tailwind",
-        color: "text-pink-500",
+        color: "blue",
       },
     ],
     link: "https://metaversus-ejr621ney-xsova113.vercel.app/",
@@ -56,15 +56,15 @@ export const projects = [
     tags: [
       {
         name: "react",
-        color: "text-blue-500",
+        color: "skyblue",
       },
       {
         name: "tailwind",
-        color: "text-pink-500",
+        color: "blue",
       },
       {
         name: "next",
-        color: "text-orange-500",
+        color: "orange",
       },
     ],
     link: "https://ecommerce-product-page-xsova113.vercel.app/",
@@ -78,27 +78,27 @@ export const projects = [
     tags: [
       {
         name: "react",
-        color: "text-blue-500",
+        color: "skyblue",
       },
       {
         name: "framer-motion",
-        color: "text-green-500",
+        color: "blue",
       },
       {
         name: "tailwind",
-        color: "text-pink-500",
+        color: "violet",
       },
       {
         name: "openAIAPI",
-        color: "text-purple-500",
+        color: "purple",
       },
       {
         name: "express",
-        color: "text-amber-500",
+        color: "red",
       },
       {
         name: "mongodb",
-        color: "text-cyan-500",
+        color: "green",
       },
     ],
     link: "https://dall-e-wheat-seven.vercel.app/",
@@ -112,19 +112,19 @@ export const projects = [
     tags: [
       {
         name: "react",
-        color: "text-blue-500",
+        color: "skyblue",
       },
       {
         name: "next",
-        color: "text-orange-500"
+        color: "orange",
       },
       {
         name: "framer-motion",
-        color: "text-green-500",
+        color: "blue",
       },
       {
         name: "tailwind",
-        color: "text-pink-500",
+        color: "violet",
       },
     ],
     link: "https://loopstudios-landing-page-nine-wine.vercel.app/",
@@ -154,74 +154,74 @@ export const skills = [
   {
     skill: "HTML",
     img: "/skills/html.png",
-    color: "bg-red-200/90",
+    color: "#FFEEBB",
   },
   {
     skill: "CSS",
     img: "/skills/css.png",
-    color: "bg-green-200/90",
+    color: "#C2DEDC",
   },
   {
     skill: "JavaScript",
     img: "/skills/javascript.png",
-    color: "bg-zinc-200/90",
+    color: "#EA906C",
   },
   {
     skill: "TypeScript",
     img: "/skills/typescript.png",
-    color: "bg-pink-200/90",
-    size: 30
+    color: "#FFF4F4",
+    size: 30,
   },
   {
     skill: "React",
     img: "/skills/react.png",
-    color: "bg-[#3A98B9]/10",
+    color: "#F1D4E5",
   },
   {
     skill: "Next.js",
     img: "/skills/next.svg",
-    color: "bg-amber-200/90",
+    color: "#9DB2BF",
   },
   {
     skill: "Prisma",
     img: "/skills/prisma.png",
-    color: "bg-violet-200/90",
+    color: "#D2E9E9",
   },
   {
     skill: "Railway",
     img: "/skills/railway.svg",
-    color: "bg-blue-200/90",
+    color: "#E7CBCB",
   },
   {
     skill: "PostgreSQL",
     img: "/skills/postgresql.svg",
-    color: "bg-red-200/90",
+    color: "#DBDFEA",
   },
   {
     skill: "Express",
     img: "/skills/express.png",
-    color: "bg-white/90",
-    size: 65
+    color: "#AFD3E2",
+    size: 65,
   },
   {
     skill: "MongoDB",
     img: "/skills/mongodb.svg",
-    color: "bg-orange-200/90",
-    size: 70
+    color: "#F3E99F",
+    size: 70,
   },
   {
     skill: "Tailwind CSS",
     img: "/skills/tailwind.svg",
-    color: "bg-purple-200/90",
+    color: "#F5C6EC",
   },
   {
     skill: "Git",
     img: "/skills/git.png",
-    color: "bg-blue-200/90",
+    color: "#C9EEFF",
   },
   {
     skill: "Node JS",
     img: "/skills/node.png",
-    color: "bg-zinc-200/90",
+    color: "#C8B6A6",
   },
 ];

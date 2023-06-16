@@ -23,7 +23,8 @@ const MySkills = () => {
             >
               <div
                 key={index}
-                className={`h-24 w-24 bg-gradient-to-r flex items-center justify-center px-2 py-2 mr-2 mt-2 rounded-full ${item.color}`}
+                className={`${item.color} h-24 w-24 flex items-center justify-center px-2 py-2 mr-2 mt-2 rounded-full`}
+                style={{background: item.color}}
               >
                 <Image
                   src={item.img}

@@ -35,7 +35,7 @@ export default function Project({ project }: any) {
 
           <div className="flex gap-2 mb-3">
             {project.tags.map((item: { name: string; color: string }) => (
-              <span key={item.name} className={`p-1 ${item.color}`}>
+              <span key={item.name} className={`p-1`} style={{color: item.color}}>
                 #{item.name}
               </span>
             ))}
