@@ -5,7 +5,7 @@ import Image from "next/image";
 
 const MySkills = () => {
   return (
-    <div className="flex flex-col md:flex-row pt-12 items-center">
+    <div className="flex flex-col md:flex-row max-md:pt-16 items-center flex-1">
       <motion.div
         variants={slideIn("left", "spring", 0.2, 0.8)}
         initial="hidden"
