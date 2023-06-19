@@ -9,10 +9,10 @@ const AboutMe = () => {
         variants={container("left", "tween")}
         initial="hidden"
         whileInView={"show"}
-        className={`flex flex-col justify-center transition text-white/80 bg-gradient-to-br from-red-500 to-orange-500 w-[90%] py-16 px-6 md:px-12 rounded-3xl shadow-2xl`}
+        className={`flex flex-col text-white/80 bg-gradient-to-br from-orange-500 via-amber-500 to-amber-500 justify-center transition w-[90%] py-16 px-6 md:px-12 rounded-3xl shadow-2xl`}
       >
         <motion.div variants={items} className="flex flex-col">
-          <h1 className="mx-auto text-white text-2xl font-bold mb-6 md:text-left">
+          <h1 className="mx-auto dark:text-white text-stone-800 transition text-2xl font-bold mb-6 md:text-left">
             Get to Know Me!
           </h1>
           <p>
