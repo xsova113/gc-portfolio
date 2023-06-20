@@ -14,7 +14,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <Head />
-      <body className=" dark:bg-stone-800 bg-[#F5EFE7] transition duration-300">
+      <body className="dark:bg-stone-800 bg-[#F5EFE7] transition duration-300">
         <ThemeProvider attribute="class" enableSystem={true}>
           <NavBar />
           {children}
