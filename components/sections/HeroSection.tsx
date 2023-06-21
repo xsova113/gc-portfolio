@@ -49,10 +49,10 @@ export default function HeroSection() {
           className={`md:mt-2 md:w-3/5 flex flex-col gap-4 max-md:items-center flex-1`}
           viewport={{ once: true }}
         >
-          <h1 className="font-bold text-5xl mt-6 md:text-7xl md:mt-0">
+          <h1 className="font-bold text-5xl mt-6 mb-6 tracking-wider md:leading-[80px] leading-[50px] md:text-7xl md:mt-0">
             Hi, I&apos;m a
             <br />
-            <span className="border-b-8 border-[#3A98B9]">{textArray[index]}</span>!
+            <span className="border-b-8 border-[#3A98B9] pb-2">{textArray[index]}</span>!
           </h1>
           <p className="text-lg text-stone-600/80 dark:text-stone-300 mt-4 mb-6 md:text-2xl">
             I&apos;m a&nbsp;
