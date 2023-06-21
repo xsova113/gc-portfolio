@@ -52,7 +52,7 @@ export default function HeroSection() {
           <h1 className="font-bold text-5xl mt-6 md:text-7xl md:mt-0">
             Hi, I&apos;m a
             <br />
-            <span className="text-orange-500">{textArray[index]}</span>!
+            <span className="border-b-8 border-[#3A98B9]">{textArray[index]}</span>!
           </h1>
           <p className="text-lg text-stone-600/80 dark:text-stone-300 mt-4 mb-6 md:text-2xl">
             I&apos;m a&nbsp;
@@ -64,7 +64,7 @@ export default function HeroSection() {
           </p>
           <Link
             to="projects"
-            className="text-neutral-100 w-[120px] font-semibold text-center transition py-3 bg-orange-500 rounded shadow hover:bg-orange-700 cursor-pointer"
+            className="text-neutral-100 w-[120px] font-semibold text-center transition py-3 bg-[#3A98B9] rounded shadow hover:bg-orange-700 cursor-pointer"
             activeClass="active"
             spy={true}
             smooth={true}
